@@ -5,8 +5,8 @@ import Detail from './Component/Detail/Detail'
 function App() {
   return (
     <div className="App">
-      {/* <Index /> */}
-      <Carts /> 
+       <Index /> 
+     {/* <Carts />  */}
       {/* <Detail/> */}
     </div>
   );
