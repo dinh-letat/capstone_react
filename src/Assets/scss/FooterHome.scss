@@ -1,0 +1,52 @@
+@import "./Base.scss";
+
+.footer {
+  .container {
+    .row {
+      background-color: #fff !important;
+      @media screen and (max-width: 500px) {
+        display: block;
+      }
+      @media screen and (max-width: 500px) {
+        padding: 0;
+      }
+      .col-4 {
+        padding-left: calc(67 / 1280 * 100%);
+        border-right: 1px solid #dedddc;
+        margin-bottom: 36px;
+        @media screen and (max-width: 500px) {
+          border: none;
+        }
+        @media screen and (max-width: 300px) {
+          width: 100%;
+        }
+        h2 {
+          font-weight: 700;
+          font-size: 20px;
+          margin-bottom: 6px;
+        }
+        h4 {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19.36px;
+          margin-bottom: 10px;
+        }
+      }
+      .col-4:last-child {
+        border: none;
+      }
+    }
+  }
+  .author {
+    text-align: center;
+    background-color: #d9d9d9;
+    padding-bottom: 20px;
+    p {
+      padding-top: 25px;
+      font-size: 20px;
+      font-weight: 400;
+      color: #000;
+      margin-bottom: 0;
+    }
+  }
+}
